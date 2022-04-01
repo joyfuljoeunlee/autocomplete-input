@@ -1,0 +1,11 @@
+{
+  "name": "autocomplete-input",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/joyfuljoeunlee/autocomplete-input.git",
+  "author": "Joeun <joyfuljoeunlee@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "paths": {
+      "api/*": ["src/api/*"],
+      "components/*": ["src/components/*"],
+      "styles/*": ["src/styles/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
