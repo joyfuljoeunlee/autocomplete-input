@@ -7,8 +7,10 @@
   <body>
     <div id="app">
       <h1>Autocomplete Input</h1>
-      <input type="text" placeholder="제목을 검색해보세요" />
+      <input id="input" type="text" placeholder="제목을 검색해보세요" />
+      <ul id="dropdown" class="dropdown-invisible"></ul>
+      <button id="clear-button" class="clear-button-invisible">지우기</button>
     </div>
-    <script src="src/index.js"></script>
+    <script type="module" src="src/index.js"></script>
   </body>
 </html>
